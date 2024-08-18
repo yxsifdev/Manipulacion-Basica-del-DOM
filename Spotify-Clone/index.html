@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Reproductor web: música para todos</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link
+      rel="shortcut icon"
+      href="resources/icons/Spotify_Primary_Logo_RGB_Green.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css"
+    />
+  </head>
+  <body>
+    <div class="parent">
+      <div class="div1">
+        <div class="directions">
+          <a href=""><i class="fa-solid fa-house"></i> Inicio</a>
+          <a href=""><i class="fa-solid fa-magnifying-glass"></i> Buscar</a>
+        </div>
+      </div>
+      <div class="div2">
+        <div class="buttons-opc">
+          <button class="biblioteca">
+            <i class="ti ti-playlist"></i> Tu biblioteca
+          </button>
+          <div class="opc-add-arrow">
+            <button><i class="ti ti-plus"></i></button>
+            <button><i class="ti ti-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="div3">3</div>
+      <div class="div4">4</div>
+    </div>
+
+    <div class="music-footer">
+      <div class="part-1">
+        <img
+          src="resources/images/music/yxsifdev-playlist.webp"
+          alt="logo-spotify"
+          class="img-music"
+          width="60"
+          height="60"
+        />
+        <div class="redirect-site"></div>
+      </div>
+      <div class="part-2">
+        <div class="buttons">
+          <button>
+            <i class="fa-solid fa-shuffle hover-text"></i>
+          </button>
+          <button><i class="fa-solid fa-backward"></i></button>
+          <button><i class="fa-solid fa-play"></i></button>
+          <button><i class="fa-solid fa-forward"></i></button>
+          <button>
+            <i class="fa-solid fa-repeat hover-text"></i>
+          </button>
+        </div>
+        <div class="music-range">
+          <label for="">0:30</label>
+          <input
+            type="range"
+            value="20"
+            min="0"
+            max="100"
+            class="custom-range"
+          />
+          <label for="">3:30</label>
+        </div>
+      </div>
+      <div class="part-3">
+        <input
+          type="range"
+          value="20"
+          min="0"
+          max="100"
+          class="custom-range-2"
+        />
+      </div>
+    </div>
+
+    <script src="scripts/show-musics.js"></script>
+  </body>
+</html>

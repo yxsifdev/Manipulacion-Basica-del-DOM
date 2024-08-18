@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Bang Bang",
+        "authors": [
+            "K'NAAN",
+            "Adam Levine"
+        ],
+        "url": "https://example.com/bang-bang"
+    },
+    {
+        "name": "That's What I Like",
+        "authors": [
+            "Bruno Mars"
+        ],
+        "url": "https://example.com/thats-what-i-like"
+    },
+    {
+        "name": "Spotify Clone by yxsifdev",
+        "authors": [
+            "Essentials Cloud",
+            "yxsifdev"
+        ],
+        "url": "https://example.com/spotify-clone"
+    }
+]
